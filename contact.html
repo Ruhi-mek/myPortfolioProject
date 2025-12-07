@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ruhama Mekonen - Frontend Developer Portfolio</title>
+</head>
+<body>
+    <header>
+        <h1>Contact Me</h1>
+        <nav>
+            <a href="./index.html"><img src="./images/profile-pic.jpg" alt="Home" width="25" height="25" /></a>
+            <a href="./about.html">About Me</a>
+            <a href="./skill.html">My Skills</a>
+            <a href="./contact.html">Contact Me</a>
+        </nav>
+    </header>
+
+    <section>
+        <h2>Get In Touch</h2>
+        <form>
+            <p>
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+            </p>
+
+            <p>
+                <label for="age">Age:</label>
+                <input type="number" id="age" name="age" min="10" max="80" placeholder="age" required>
+            </p>
+
+            <p>
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email">
+            </p>
+
+            <p>
+                <label>Gender:</label><br>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label><br>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label><br>
+            </p>
+
+             <p>
+                <h3>I contact you for:</h3>
+                <input type="checkbox" id="Web Development" name="Web Development" value="Web Development">
+                <label for="Web Development">Web Development</label>
+                <input type="checkbox" id="HTML" name="HTML" value="HTML">
+                <label for="HTML">HTML</label>
+                <input type="checkbox" id="Python" name="Python" value="Python">
+                <label for="Python">Python</label>
+                <input type="checkbox" id="Other" name="Other" value="Other">
+                <label for="Other">Other</label>
+            </p>
+
+            <p>
+                <!-- if some one wants to write something that isn't mention on the website, they can write it in this section
+                 rows="4" and cols="50": Sets visible size (4 lines tall, 50 characters wide) -->
+                <label for="message">Your Message:</label><br>
+                <textarea id="message" name="message" rows="4" cols="50" placeholder="Type your message here..."></textarea>
+            </p>
+           
+            <p>
+                <label for="satisfaction">Satisfaction Level (1-10):</label><br>
+                <input type="range" id="satisfaction" name="satisfaction" min="1" max="10">
+            </p>
+
+            <p>
+                <button type="submit">Send Message</button>
+                <button type="reset">Clear Form</button>
+            </p>
+        </form>
+    </section>
+    
+    <footer>
+
+        <div>
+            <p>For more information, Check out my profiles:
+                <a href="https://github.com/Ruhi-mek" target="_blank" title="GitHub Profile">GitHub</a>
+                <a href="https://www.linkedin.com/in/ruhama-mekonen-79655a389" target="_blank" title="LinkedIn Profile">LinkedIn</a>
+                <a href="https://t.me/ruu_hi" target="_blank" title="Telegram Profile">Telegram</a>
+                <a href="https://www.instagram.com/ruhi.wawa" target="_blank" title="Instagram">Instagram</a>
+            </p>
+        </div>
+        <hr>
+        <center><p>&copy;2025 My Portfolio. All rights reserved.</p></center>
+        
+    </footer>
+
+
+</body>
+</html>
